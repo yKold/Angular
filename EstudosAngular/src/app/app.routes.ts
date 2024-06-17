@@ -9,6 +9,7 @@ export const routes: Routes = [
     },
     {
         path: "create-product",
-        component: CreateProductsComponent
+        loadComponent: () => 
+            import("./features/create-products/create-products.component").then(m => m.CreateProductsComponent),
     }
 ];
