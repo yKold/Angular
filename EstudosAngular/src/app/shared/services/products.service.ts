@@ -14,7 +14,7 @@ export class ProductsService {
   }
 
   post(payload: ProductPayload) {
-    return this.HttpClient.post("/api/products", payload)
+    return this.HttpClient.post('/api/products', payload);
   }
   
   constructor() { }

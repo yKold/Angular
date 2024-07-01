@@ -13,7 +13,7 @@ import { ProductsService } from '../../shared/services/products.service';
   styleUrl: './create-products.component.scss'
 })
 export class CreateProductsComponent {
-  productService = inject(ProductsService)
+  productService = inject(ProductsService);
 
   form = new FormGroup({
     title: new FormControl<string>("", 
