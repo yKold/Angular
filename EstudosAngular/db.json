@@ -1,24 +1,3 @@
 {
-  "products": [
-    {
-      "title": "Editado",
-      "id": "1"
-    },
-    {
-      "id": "0b3f",
-      "title": "asdasd"
-    },
-    {
-      "id": "ac8c",
-      "title": "asdasd"
-    },
-    {
-      "id": "74ea",
-      "title": "camiseta"
-    },
-    {
-      "id": "2cdd",
-      "title": "batata"
-    }
-  ]
+  "products": []
 }
