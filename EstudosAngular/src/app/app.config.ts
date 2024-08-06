@@ -17,7 +17,8 @@ const SNACK_BAR_CONFIG:ValueProvider = {
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes), 
+    provideZoneChangeDetection({ eventCoalescing: true }), 
+    provideRouter(routes), 
     provideAnimationsAsync(), 
     provideHttpClient(),
     SNACK_BAR_CONFIG

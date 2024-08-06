@@ -10,7 +10,7 @@ export const routes: Routes = [
             products: () => {
                 const productsService = inject(ProductsService)
 
-                return  productsService.getAll();
+                return productsService.getAll();
             }
         },
         component: ListComponent

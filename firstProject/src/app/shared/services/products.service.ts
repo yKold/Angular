@@ -9,23 +9,23 @@ export class ProductsService {
   HttpClient = inject(HttpClient)
 
   getAll(){
-    return this.HttpClient.get<Product[]>("/api/products")
+    return this.HttpClient.get<Product[]>('/api/products');
   }
 
-  get(id:string){
+  // get(id:string){
 
-  }
+  // }
 
-  post(){
+  // post(){
 
-  }
+  // }
 
-  put(id:string){
+  // put(id:string){
 
-  }
+  // }
 
-  delete(id:string){
+  // delete(id:string){
 
-  }
+  // }
   constructor() { }
 }
