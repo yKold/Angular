@@ -1,16 +1,18 @@
 import { inject } from '@angular/core';
 import { Routes } from '@angular/router';
 import { ProductsService } from './shared/services/products.service';
-import { HeaderComponent } from './shared/components/header/header.component';
+import { ListComponent } from './features/list/list.component';
 
 export const routes: Routes = [
     {
         path: "",
-        resolve: () => {
-            const productsService = inject(ProductsService)
+        resolve: {
+            products: () => {
+                const productsService = inject(ProductsService)
 
-            return  productsService.getAll();
+                return  productsService.getAll();
+            }
         },
-        component: HeaderComponent
+        component: ListComponent
     }
 ];

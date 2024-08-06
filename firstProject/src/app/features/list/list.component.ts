@@ -1,12 +1,12 @@
 import { Component, inject, signal } from '@angular/core';
 import { Product } from '../../shared/interfaces/product';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { CardComponent } from './card/card.component';
 
 @Component({
   selector: 'app-list',
   standalone: true,
-  imports: [ CardComponent ],
+  imports: [ CardComponent, RouterLink ],
   templateUrl: './list.component.html',
   styleUrl: './list.component.scss'
 })

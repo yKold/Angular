@@ -5,7 +5,22 @@
             "id": "1",
             "name": "Gabriel",
             "preco": 23,
+            "quantidade": 2,
             "description": "Uma pessoa legal"
+        },
+        {
+            "id": "2",
+            "name": "Joao",
+            "preco": 15,
+            "quantidade": 14,
+            "description": "Uma pessoa Ruim"
+        },
+        {
+            "id": "3",
+            "name": "Vitor",
+            "preco": 63,
+            "quantidade": 45,
+            "description": "Uma pessoa Chata"
         }
     ]
 }
