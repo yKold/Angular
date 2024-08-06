@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output, computed, input, output } from '@angular/core';
+import { Component, EventEmitter, Output, computed, input } from '@angular/core';
 import { MatCardModule } from '@angular/material/card'
 import { MatButton } from '@angular/material/button';
 import { Product } from '../../../../shared/interfaces/product.interface';

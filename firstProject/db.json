@@ -1,0 +1,11 @@
+{
+    "Products":
+    [
+        {
+            "id": "1",
+            "name": "Gabriel",
+            "preco": 23,
+            "description": "Uma pessoa legal"
+        }
+    ]
+}

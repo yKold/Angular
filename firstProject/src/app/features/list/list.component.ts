@@ -1,0 +1,15 @@
+import { Component, inject, signal } from '@angular/core';
+import { Product } from '../../shared/interfaces/product';
+import { ActivatedRoute } from '@angular/router';
+import { CardComponent } from './card/card.component';
+
+@Component({
+  selector: 'app-list',
+  standalone: true,
+  imports: [ CardComponent ],
+  templateUrl: './list.component.html',
+  styleUrl: './list.component.scss'
+})
+export class ListComponent {
+  products = signal<Product[]>(inject(ActivatedRoute).snapshot.data["products"]);
+}
