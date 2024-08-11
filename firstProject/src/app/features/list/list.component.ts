@@ -11,5 +11,9 @@ import { CardComponent } from './card/card.component';
   styleUrl: './list.component.scss'
 })
 export class ListComponent {
-  products = signal<Product[]>(inject(ActivatedRoute).snapshot.data["products"]);
+  products = signal<Product[]>(inject(ActivatedRoute).snapshot.data["Products"]);
+
+  constructor() {
+    console.log(this.products()); // Log to check if the products are correctly set
+  }
 }
