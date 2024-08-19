@@ -24,6 +24,6 @@ export const appConfig: ApplicationConfig = {
     provideClientHydration(), 
     provideAnimationsAsync(), 
     provideHttpClient(withFetch()), 
-    SNACK_BAR_CONFIG
+    SNACK_BAR_CONFIG, provideAnimationsAsync()
   ]
 };

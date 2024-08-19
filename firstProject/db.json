@@ -6,21 +6,24 @@
             "name": "Gabriel",
             "preco": 23,
             "quantidade": 2,
-            "description": "Uma pessoa legal"
+            "description": "Uma pessoa legal",
+            "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftecnoblog.net%2Fnoticias%2Fdesenvolvedor-descobre-que-ia-que-gera-imagens-e-otima-para-comprimir-fotos%2F&psig=AOvVaw0N2aZA4Lde_r1p7FLBhKf0&ust=1724164510159000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMC0obijgYgDFQAAAAAdAAAAABAE"
         },
         {
             "id": "2",
             "name": "Joao",
             "preco": 15,
             "quantidade": 14,
-            "description": "Uma pessoa Ruim"
+            "description": "Uma pessoa Ruim",
+            "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftecnoblog.net%2Fnoticias%2Fdesenvolvedor-descobre-que-ia-que-gera-imagens-e-otima-para-comprimir-fotos%2F&psig=AOvVaw0N2aZA4Lde_r1p7FLBhKf0&ust=1724164510159000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMC0obijgYgDFQAAAAAdAAAAABAE"
         },
         {
             "id": "3",
             "name": "Vitor",
             "preco": 63,
             "quantidade": 45,
-            "description": "Uma pessoa Chata"
+            "description": "Uma pessoa Chata",
+            "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftecnoblog.net%2Fnoticias%2Fdesenvolvedor-descobre-que-ia-que-gera-imagens-e-otima-para-comprimir-fotos%2F&psig=AOvVaw0N2aZA4Lde_r1p7FLBhKf0&ust=1724164510159000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMC0obijgYgDFQAAAAAdAAAAABAE"
         }
     ]
 }

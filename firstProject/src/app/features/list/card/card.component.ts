@@ -13,6 +13,7 @@ import { Product } from '../../../shared/interfaces/product';
 export class CardComponent {
   product = input.required<Product>()
 
+  productImg = computed(() => this.product().img)
   productName = computed(() => this.product().name);
   productQtd = computed(() => this.product().quantidade);
   productDesc = computed(() => this.product().description);
