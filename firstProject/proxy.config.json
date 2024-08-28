@@ -1,18 +1,11 @@
 {
-    "/api": {
-<<<<<<< HEAD
-        "target": "http://localhost:3000/",
-        "pathRewrite": {
-            "^/api": ""
-        }
+  "/api": {
 
-=======
-      "target": "http://localhost:3000",
-      "secure": false,
-      "pathRewrite": {
+    "target": "http://localhost:3000/",
+    "pathRewrite": {
         "^/api": ""
-      }
->>>>>>> 442b5fe32d9ee4397707d60fa04c65bc9b212885
     }
+
   }
+}
   

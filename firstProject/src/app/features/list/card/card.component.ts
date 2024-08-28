@@ -1,4 +1,4 @@
-import { Component, input, computed } from '@angular/core';
+import { Component, input, computed, Input } from '@angular/core';
 import { MatCardModule } from '@angular/material/card'
 import { MatButton } from '@angular/material/button';
 import { Product } from '../../../shared/interfaces/product';
